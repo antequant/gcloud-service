@@ -31,6 +31,9 @@ setup(
         "Topic :: System :: Logging",
         "Topic :: System :: Monitoring",
     ],
-    install_requires=["google-cloud-logging ~> 1.14"],
+    install_requires=[
+        "google-cloud-error-reporting ~= 0.33",
+        "google-cloud-logging ~= 1.14",
+    ],
     keywords="google cloud gcloud microservice service",
 )
